@@ -1,0 +1,47 @@
+
+
+
+.btn-close {
+    font-size: 40px;
+    padding: 0 10px 10px 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+.btn-close:hover {
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+#file-input {
+    display: none;
+}
+
+.preview {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-preview {
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: rgb(101, 101, 255);
+    font-size: 14px;
+}
